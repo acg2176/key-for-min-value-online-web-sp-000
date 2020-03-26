@@ -19,5 +19,6 @@ def key_for_min_value(name_hash)
   name_hash.each do |name, value|
     if value == array_vals[0] #minimum value
       return name
+    end
   end
 end
